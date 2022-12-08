@@ -1,0 +1,1 @@
+{"uuid":"624fb379-4391-4b60-886e-8d6c3731c6a3","name":"test.BookingTestEndToEndTest2","children":["36d1b29b-5f7a-49a8-bd94-4b44adf5e75e"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1670381546460,"stop":1670381550166}],"afters":[],"start":1670381546332,"stop":1670381558509}

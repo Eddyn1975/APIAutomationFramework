@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="6830" started-at="2022-02-25T11:14:41 CST" finished-at="2022-02-25T11:14:48 CST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="6830" started-at="2022-02-25T11:14:41 CST" finished-at="2022-02-25T11:14:48 CST">
+      <class name="com.booking.api.test.BookingTest">
+        <test-method status="PASS" signature="createToken()[pri:1, instance:com.booking.api.test.BookingTest@53f65459]" name="createToken" duration-ms="4735" started-at="2022-02-25T11:14:41 CST" finished-at="2022-02-25T11:14:46 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createToken -->
+        <test-method status="PASS" signature="createBooking()[pri:2, instance:com.booking.api.test.BookingTest@53f65459]" name="createBooking" duration-ms="338" started-at="2022-02-25T11:14:46 CST" finished-at="2022-02-25T11:14:46 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method status="PASS" signature="getBooking()[pri:3, instance:com.booking.api.test.BookingTest@53f65459]" name="getBooking" duration-ms="430" started-at="2022-02-25T11:14:46 CST" finished-at="2022-02-25T11:14:47 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBooking -->
+        <test-method status="PASS" signature="updateBooking()[pri:4, instance:com.booking.api.test.BookingTest@53f65459]" name="updateBooking" duration-ms="662" started-at="2022-02-25T11:14:47 CST" finished-at="2022-02-25T11:14:47 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBooking -->
+        <test-method status="PASS" signature="updatePartialBooking()[pri:5, instance:com.booking.api.test.BookingTest@53f65459]" name="updatePartialBooking" duration-ms="306" started-at="2022-02-25T11:14:47 CST" finished-at="2022-02-25T11:14:48 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePartialBooking -->
+        <test-method status="PASS" signature="deleteBooking()[pri:6, instance:com.booking.api.test.BookingTest@53f65459]" name="deleteBooking" duration-ms="288" started-at="2022-02-25T11:14:48 CST" finished-at="2022-02-25T11:14:48 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBooking -->
+      </class> <!-- com.booking.api.test.BookingTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

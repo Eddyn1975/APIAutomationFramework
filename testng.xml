@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="listeners.Listeners" />
+	</listeners>
+	<test name="API Testing">
+		<classes>
+			<class name="tests.BookingTestEndToEndTest">
+				<methods>
+					<include name="userShouldBeAbleToCreateToken" />
+					<include name="userShouldBeAbleToCreateBooking" />
+					<include name="userShouldBeAbleTogetBooking" />
+					<include name="userShouldBeAbleToUpdateBooking" />
+					<include name="userShoudBeAbleToUpdatePartialBooking" />
+					<include name="userShouldBeAbleToDeleteBooking" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

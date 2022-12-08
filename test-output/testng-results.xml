@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-07T21:30:55 CST" name="Default suite" finished-at="2022-12-07T21:31:10 CST" duration-ms="15794">
+    <groups>
+    </groups>
+    <test started-at="2022-12-07T21:30:55 CST" name="Default test" finished-at="2022-12-07T21:31:10 CST" duration-ms="15794">
+      <class name="tests.BookingTestEndToEndTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.BookingTestEndToEndTest@7e72a6cc]" started-at="2022-12-07T21:30:55 CST" name="beforeMethod" finished-at="2022-12-07T21:30:55 CST" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BookingTestEndToEndTest.userShouldBeAbleToCreateToken() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userShouldBeAbleToCreateToken()[pri:1, instance:tests.BookingTestEndToEndTest@7e72a6cc]" started-at="2022-12-07T21:30:55 CST" name="userShouldBeAbleToCreateToken" finished-at="2022-12-07T21:31:07 CST" duration-ms="12171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToCreateToken -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.BookingTestEndToEndTest@7e72a6cc]" started-at="2022-12-07T21:31:07 CST" name="beforeMethod" finished-at="2022-12-07T21:31:07 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BookingTestEndToEndTest.userShouldBeAbleToCreateBooking() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userShouldBeAbleToCreateBooking()[pri:2, instance:tests.BookingTestEndToEndTest@7e72a6cc]" started-at="2022-12-07T21:31:07 CST" name="userShouldBeAbleToCreateBooking" finished-at="2022-12-07T21:31:08 CST" duration-ms="790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToCreateBooking -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.BookingTestEndToEndTest@7e72a6cc]" started-at="2022-12-07T21:31:08 CST" name="beforeMethod" finished-at="2022-12-07T21:31:08 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BookingTestEndToEndTest.userShouldBeAbleTogetBooking() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userShouldBeAbleTogetBooking()[pri:3, instance:tests.BookingTestEndToEndTest@7e72a6cc]" started-at="2022-12-07T21:31:08 CST" name="userShouldBeAbleTogetBooking" finished-at="2022-12-07T21:31:09 CST" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleTogetBooking -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.BookingTestEndToEndTest@7e72a6cc]" started-at="2022-12-07T21:31:09 CST" name="beforeMethod" finished-at="2022-12-07T21:31:09 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BookingTestEndToEndTest.userShouldBeAbleToUpdateBooking() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userShouldBeAbleToUpdateBooking()[pri:4, instance:tests.BookingTestEndToEndTest@7e72a6cc]" started-at="2022-12-07T21:31:09 CST" name="userShouldBeAbleToUpdateBooking" finished-at="2022-12-07T21:31:10 CST" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToUpdateBooking -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.BookingTestEndToEndTest@7e72a6cc]" started-at="2022-12-07T21:31:10 CST" name="beforeMethod" finished-at="2022-12-07T21:31:10 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BookingTestEndToEndTest.userShoudBeAbleToUpdatePartialBooking() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userShoudBeAbleToUpdatePartialBooking()[pri:5, instance:tests.BookingTestEndToEndTest@7e72a6cc]" started-at="2022-12-07T21:31:10 CST" name="userShoudBeAbleToUpdatePartialBooking" finished-at="2022-12-07T21:31:10 CST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShoudBeAbleToUpdatePartialBooking -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.BookingTestEndToEndTest@7e72a6cc]" started-at="2022-12-07T21:31:10 CST" name="beforeMethod" finished-at="2022-12-07T21:31:10 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BookingTestEndToEndTest.userShouldBeAbleToDeleteBooking() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userShouldBeAbleToDeleteBooking()[pri:6, instance:tests.BookingTestEndToEndTest@7e72a6cc]" started-at="2022-12-07T21:31:10 CST" name="userShouldBeAbleToDeleteBooking" finished-at="2022-12-07T21:31:10 CST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToDeleteBooking -->
+      </class> <!-- tests.BookingTestEndToEndTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
